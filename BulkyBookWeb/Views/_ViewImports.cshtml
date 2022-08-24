@@ -1,0 +1,11 @@
+﻿<!-- Global namespace -->
+<!-- 'using' statement -> access namespace across all the pages / Controllers / Classes -->
+@using BulkyBookWeb
+@using BulkyBookWeb.Models
+
+<!-- Helper = bindings provided by .NET teams -> looks like HTML tags -->
+<!-- TagHelper => Format = "asp-{{ name of the tag }}" eg: asp-controller, asp-action -->
+<!-- TagHelper => used for Server-Side rendering, help in create/render HTML elements in Razer pages -->
+<!-- Angular => used for Client-Side rendering -->
+<!-- TagHelper -> much more convenient to use compared to HTML helpers -->
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
